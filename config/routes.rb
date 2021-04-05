@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/' => 'homes#top'
+  root to: 'homes#top'
   # get 'books/index' => 'books#index'
   # get 'books/:id' => 'books#show'
   # get 'books/:id/edit' => 'books#edit'
